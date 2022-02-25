@@ -1,0 +1,8 @@
+<!-- interpolation de variable -->
+<p>{{ nom }}</p>
+
+<!-- liaison de propriété -->
+<img [src]="'https://dyma.fr/assets/logo.png'" alt="angular">
+
+<!-- liaison d'événement -->
+<input (input)="nom=$event.target.value" >
